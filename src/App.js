@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import "./index.css";
+import Cabeca from "./components/cabeca";
+import Posto from "./components/inputCalculator";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="App-header" style={{background:"#75206E", borderTop:"1px #fff solid"}}>
+      {/* lancar os componentes aqui */}
+       <Cabeca/>
+       <Posto></Posto>
+       
       </header>
+      <hr style={{marginTop:"4rem"}}></hr>
     </div>
   );
 }
