@@ -1,6 +1,6 @@
 {
-  "homepage": "https://github.com/AndreJoas/CalculadoraCombustivelReact.git",
   "name": "comb_calculator",
+  "homepage":"https://AndreJoas.github.io/CalculadoraCombustivelReact",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
